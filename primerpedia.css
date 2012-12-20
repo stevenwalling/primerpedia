@@ -1,87 +1,97 @@
 body, h2 {
-	text-align: center;
+    text-align: center;
 }
 
 #content {
-	margin: 0 auto;
-	width: 80%;
-	padding: 1em;
-	text-align: left;
-	font-family: sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    text-align: left;
+    font-family: sans-serif;
 }
 
 h1 {
-	font-family: 'Squada One', sans-serif;
-	font-weight: normal;
-	font-size: 2.5em;
-	line-height: 0.5em;
+    font-family: 'Squada One', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 0.5em;
 }
 
 h2 {
-	padding: 0.2em;
-	background: #D0EDFB;
-	border-radius: 5px;
+    padding: 0.2em;
+    background: #D0EDFB;
+    border-radius: 5px;
 }
 
 a {
-	color: DodgerBlue;
-	font-family: sans-serif;
-	font-weight: normal;
-	text-decoration: none;
+    color: DodgerBlue;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 a:visited {
-	color: DarkSlateBlue;
+    color: DarkSlateBlue;
 }
 
 a:active {
-	outline: none;
+    outline: none;
 }
 
 a.edit-link {
-	float: right;
-	padding: 0.5em 1em;
-	font-size: 1rem;
-	font-weight: bold;
-	background-color: #7fbf4d;
-	background: linear-gradient(to bottom, #7fbf4d 0%, #63a62f 100%);
-	border: 1px solid #63a62f;
-	border-radius: 3px;
-	color: white;
-	line-height: 0.7;
-	text-shadow: 0 -1px 0 #4c9021;
-	box-shadow: inset 0 1px 0 0 #a8cc8f;
+    float: right;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #27aa65;
+    background-image: -moz-linear-gradient(top, #36BA75, #27aa65);
+    background-image: -ms-linear-gradient(top, #36BA75, #27aa65);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36BA75), color-stop(100%, #27aa65));
+    background-image: -webkit-linear-gradient(top, #36BA75, #27aa65);
+    background-image: linear-gradient(#36BA75, #27aa65);
+    border: 1px #269E5E solid;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#36BA75', endColorstr='#27aa65', GradientType=0)";
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#36BA75', endColorstr='#27aa65', GradientType=0);
 }
 
 a.edit-link:hover {
-	background-color: #76b347;
-	background: linear-gradient(to bottom, #76b347 0%, #5e9e2e 100%);
-	box-shadow: inset 0 1px 0 0 #8dbf67;
-	text-decoration: none;
+    background-color: #30BF73;
+    background-image: -moz-linear-gradient(top, #34BF76, #30BF73);
+    background-image: -ms-linear-gradient(top, #34BF76, #30BF73);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #34BF76), color-stop(100%, #30BF73));
+    background-image: -webkit-linear-gradient(top, #34BF76, #30BF73);
+    background-image: linear-gradient(#34BF76, #30BF73);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#34BF76', endColorstr='#30BF73', GradientType=0)";
+      filter: progid:dximagetransform.microsoft.gradient(startColorstr='#34BF76', endColorstr='#30BF73', GradientType=0);
 }
 
 a.edit-link:active {
-	border: 1px solid #5b992b;
-	border-bottom: 1px solid #538c27;
-	box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    background-color: #209959;
+    background-image: -moz-linear-gradient(top, #22A15E, #209959);
+    background-image: -ms-linear-gradient(top, #22A15E, #209959);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #22A15E), color-stop(100%, #209959));
+    background-image: -webkit-linear-gradient(top, #22A15E, #209959);
+    background-image: linear-gradient(#22A15E, #209959);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#22A15E', endColorstr='#209959', GradientType=0)";
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#22A15E', endColorstr='#209959', GradientType=0);
 }
 
 #footer {
-	font-size: small;
-	color: grey;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	padding: 0.2em 0.7em;
-	border-top-right-radius: 1em;
-	background-color: white;
-	box-shadow: -1px -1px 5px 3px rgba(0, 0, 0, 0.3);
-	transform: rotate(-90deg) translateX(100%);
-	transform-origin: right bottom;
-	-webkit-transform: rotate(-90deg) translateX(100%);
-	-webkit-transform-origin: right bottom;
+    font-size: small;
+    color: gray;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.2em 0.7em;
+    border-top-right-radius: 1em;
+    background-color: white;
+    box-shadow: -1px -1px 5px 3px rgba(0, 0, 0, 0.3);
+    transform: rotate(-90deg) translateX(100%);
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg) translateX(100%);
+    -webkit-transform-origin: right bottom;
 }
